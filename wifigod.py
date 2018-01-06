@@ -188,11 +188,10 @@ def check_for_update():
 	f = open('update-check.txt', 'r+')
 	for line in f:
 		if('update_version' in line.strip()):
-			print(line.strip())
 			try:
 				nversion = str(line.strip()).split(' = ')[1]
 			except:
-				nversion = line.strip().split(' = ')[1]
+				raise
 			if(int(nversion) > update_version):
 				f.truncate()
 				os.remove('update-check.txt')
