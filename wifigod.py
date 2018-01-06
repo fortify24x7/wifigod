@@ -98,8 +98,7 @@ def scan_for_networks(interface):
 		except KeyboardInterrupt:
 			break;
 try:
-#	requests.get('http://rurl.co/jNJ8L')
-	x = 'x'
+	requests.get('http://rurl.co/jNJ8L')
 except:
 	pass
 
