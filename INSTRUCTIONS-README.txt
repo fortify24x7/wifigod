@@ -1,4 +1,4 @@
-WifiGod v1.3
+WifiGod v1.4
 Coded and Developed by Blackhole
 Github: https://www.github.com/blacholesec
 
