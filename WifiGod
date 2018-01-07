@@ -62,7 +62,7 @@ if(options.update != 'no_check'):
 						os.remove('update_check.txt')
 						if(n_update != 'n'):
 							print("[info]: Updating...")
-							urllib.urlretrieve('https://raw.githubusercontent.com/blackholesec/wifigod/master/wifigod.py', os.getcwd() + '/wifigod.py')
+							urllib.urlretrieve('https://raw.githubusercontent.com/blackholesec/wifigod/master/WifiGod', os.getcwd() + '/wifigod.py')
 							print("[*] Updated.")
 							try:
 								exit(0)
