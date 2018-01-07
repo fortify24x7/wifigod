@@ -44,7 +44,7 @@ if(os_type != "Linux"):
 		exit(0)
 	except:
 		sys.exit(1)
-update_version = 0.2
+update_version = 0.3
 if(options.update != 'no_check'):
 	if(1 == 1):
 		r = requests.get('https://raw.githubusercontent.com/blackholesec/wifigod/master/wifigod.py')
