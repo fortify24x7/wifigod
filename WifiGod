@@ -368,7 +368,7 @@ print(str("           `+hdh+-```-+ydds.            ").center(size))
 print(str("             `-  `/+/.  ..").center(size))
 print(str("                  ddyo").center(size))
 print(" ")
-print(c.ob+"              WifiGod v1.1"+c.w)
+print(c.ob+"              WifiGod v1.2"+c.w)
 print(" ")
 while True:
 	size_ = int(subprocess.check_output('python3 columnlib.py', shell=True).strip())
