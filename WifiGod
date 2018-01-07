@@ -43,7 +43,7 @@ if(os_type != "Linux"):
 		exit(0)
 	except:
 		sys.exit(1)
-update_version = 0.1
+update_version = 0.2
 if(options.update != 'no_check'):
 	if(1 == 1):
 		r = requests.get('https://raw.githubusercontent.com/blackholesec/wifigod/master/wifigod.py')
@@ -316,7 +316,7 @@ def dns_traffic(interface,ip_address):
 					if(pck.haslayer(DNS)):
 						print(c.g+"{}"+c.w+" --> "+c.g+"{}"+c.g+" {} "+c.w+"| Server: "+c.g+"{}"+c.w).format(ip_src,ip_dst,hostname,server_name)
 					else:
-						print(c.g+"{}"+c.w+" --> "+c.g+"{}"+c.w+" | Server: "+c.g+"{}"+c.w).format(ip_src,ip_dst,server_name,hostname)
+						print(c.g+"{}"+c.w+" --> "+c.g+"{}"+c.w+" | Server: "+c.g+"{}"+c.w).format(ip_src,ip_dst,server_name)
 def syn_overflow(ip_source,ip_dest,ip_source_port,ip_dest_port,interface,thread_count,message):
 	print(c.w+"["+c.b+"info"+c.w+"]: Creating Packets...")
 	print(c.w+"["+c.b+"info"+c.w+"]: Sending Packets...")
